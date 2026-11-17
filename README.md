@@ -8,10 +8,13 @@ You upload a photo, a fine-tuned **ResNet18** model classifies it into one of 16
 
 | Part | What it does |
 |---|---|
-| Model | ResNet18 pre-trained on ImageNet, fine-tuned with transfer learning on the Fruits-360 dataset (163 classes) in PyTorch. Training notebook: [SmartChef on Kaggle](https://www.kaggle.com/code/laharisingaraju19/smartchef-ingredient-classification-with-resnet18) |
-| `classifier/predictor.py` | Loads the trained weights once, applies the same resize and normalization used in training, and returns the top 3 classes with probabilities |
+| Training | ResNet18 pre-trained on ImageNet, fine-tuned with transfer learning on Fruits-360 (163 classes) in PyTorch. Notebook: `SmartChef.ipynb` and [on Kaggle](https://www.kaggle.com/code/laharisingaraju19/smartchef-ingredient-classification-with-resnet18) |
+| `export_onnx.py` | Converts the trained PyTorch model to ONNX and checks both give the same scores |
+| `classifier/predictor.py` | Runs the ONNX model with ONNX Runtime, using the same resize and normalization as training, and returns the top 3 classes |
 | `classifier/views.py` | Validates the upload, fixes phone photo rotation, runs the prediction and renders the result. Photos are processed in memory and never saved |
 | `model/recipes.json` | Smoothie recipes keyed by ingredient, matched to the predicted class |
+
+**Why ONNX:** serving with ONNX Runtime instead of PyTorch cuts memory use enough to run on a free 512 MB server.
 
 ## Run it locally
 
@@ -22,14 +25,14 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
-Then open http://127.0.0.1:8000.
+Then open http://127.0.0.1:8000. On first use the app downloads `model/smartchef.onnx` from Hugging Face.
 
-The `model/` folder needs three files:
+## Deploy (Render)
 
-- `smartchef_resnet18.pth`: trained weights, saved from the Kaggle notebook
-- `class_names.json`: the 163 class names in training order
-- `recipes.json`: included
+- Build command: `pip install -r requirements.txt && python download_model.py && python manage.py collectstatic --noinput`
+- Start command: `gunicorn smartchef.wsgi:application`
+- Environment variables: `DJANGO_DEBUG=0`, `DJANGO_SECRET_KEY=<a long random string>`
 
 ## Tech stack
 
-Python · Django · PyTorch · torchvision · ResNet18 · Transfer learning · Pillow
+Python · Django · PyTorch · ONNX Runtime · ResNet18 · Transfer learning · Pillow
