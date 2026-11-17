@@ -1,0 +1,107 @@
+{% load static %}<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SmartChef · Photo to smoothie</title>
+    <link rel="stylesheet" href="{% static 'classifier/style.css' %}">
+</head>
+<body>
+    <header class="top">
+        <p class="logo">SmartChef</p>
+        <p class="tagline">Snap an ingredient, get a smoothie</p>
+    </header>
+
+    <main class="layout">
+        <!-- Left: upload -->
+        <section class="panel">
+            <h1>What's in your kitchen?</h1>
+            <p class="lead">Upload a photo of a fruit or vegetable. A ResNet18 model trained on 163 kinds of produce names it and suggests a smoothie.</p>
+
+            <form method="post" enctype="multipart/form-data" class="upload" id="upload-form">
+                {% csrf_token %}
+                <label class="drop" for="{{ form.photo.id_for_label }}">
+                    <img id="preview" class="drop-preview" alt=""
+                         {% if photo_data %}src="data:image/jpeg;base64,{{ photo_data }}"{% else %}hidden{% endif %}>
+                    <span class="drop-text" {% if photo_data %}hidden{% endif %}>
+                        <strong>Choose a photo</strong>
+                        <span>JPG or PNG, one item on a plain background works best</span>
+                    </span>
+                </label>
+                {{ form.photo }}
+                {% for error in form.photo.errors %}<p class="error">{{ error }}</p>{% endfor %}
+
+                <button type="submit" class="button" id="submit-button">Identify ingredient</button>
+            </form>
+        </section>
+
+        <!-- Right: result -->
+        <section class="panel result">
+            {% if best %}
+                <p class="eyebrow">The model sees</p>
+                <h2 class="answer">{{ best.0 }}</h2>
+
+                <ul class="guesses">
+                    {% for name, percent in guesses %}
+                        <li>
+                            <span class="guess-name">{{ name }}</span>
+                            <span class="bar"><span style="width: {{ percent }}%"></span></span>
+                            <span class="guess-percent">{{ percent }}%</span>
+                        </li>
+                    {% endfor %}
+                </ul>
+
+                {% if recipe %}
+                    <div class="recipe">
+                        <p class="eyebrow">Smoothie idea</p>
+                        <h3>{{ recipe.name }}</h3>
+                        <p>{{ recipe.instructions }}</p>
+                        <p class="extra"><strong>You'll also need:</strong> {{ recipe.additional_ingredients|join:", " }}</p>
+                        <p class="eyebrow facts-title">Fun facts</p>
+                        <ul class="facts">
+                            {% for fact in recipe.fun_facts %}<li>{{ fact }}</li>{% endfor %}
+                        </ul>
+                    </div>
+                {% else %}
+                    <p class="no-recipe">No smoothie recipe for {{ best.0|lower }} yet. Try a banana, apple, cherry or avocado.</p>
+                {% endif %}
+            {% else %}
+                <div class="empty">
+                    <p class="eyebrow">How it works</p>
+                    <ol class="steps">
+                        <li>You upload a photo.</li>
+                        <li>The image is resized and normalized the same way as during training.</li>
+                        <li>A fine-tuned ResNet18 scores all 163 classes; the top 3 appear here.</li>
+                        <li>The top guess is matched to a smoothie recipe.</li>
+                    </ol>
+                </div>
+            {% endif %}
+        </section>
+    </main>
+
+    <footer class="bottom">
+        Built with Django and PyTorch by Soundarya Lahari Singaraju
+    </footer>
+
+    <script>
+        // Show the chosen photo right away, before it is uploaded
+        const input = document.getElementById("{{ form.photo.id_for_label }}");
+        const preview = document.getElementById("preview");
+        const dropText = document.querySelector(".drop-text");
+        input.addEventListener("change", () => {
+            const file = input.files[0];
+            if (!file) return;
+            preview.src = URL.createObjectURL(file);
+            preview.hidden = false;
+            dropText.hidden = true;
+        });
+
+        // Let the visitor know the model is working
+        document.getElementById("upload-form").addEventListener("submit", () => {
+            const button = document.getElementById("submit-button");
+            button.textContent = "Identifying…";
+            button.disabled = true;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,912 @@
+[
+  {
+    "ingredients": [
+      "banana"
+    ],
+    "name": "Banana Smoothie",
+    "instructions": "Blend 1 banana with 1/2 cup of milk.",
+    "additional_ingredients": [
+      "milk"
+    ],
+    "fun_facts": [
+      "Bananas are a great source of potassium, which is essential for maintaining healthy heart function.",
+      "Bananas contain vitamin B6, which is important for brain health and metabolism."
+    ]
+  },
+  {
+    "ingredients": [
+      "apple",
+      "apple_green_1",
+      "apple_red_yellow_1"
+    ],
+    "name": "Apple Smoothie",
+    "instructions": "Blend 1 apple with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Apples are high in fiber, which helps regulate digestion and maintain gut health.",
+      "Apples contain antioxidants, which may help reduce the risk of chronic diseases."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "avocado black 1",
+      "avocado green 1"
+    ],
+    "name": "Avocado Smoothie",
+    "instructions": "Blend 1/2 avocado with 1/2 cup of milk.",
+    "additional_ingredients": [
+      "milk"
+    ],
+    "fun_facts": [
+      "Avocados are rich in healthy fats, especially monounsaturated fats, which support heart health.",
+      "Avocados are a great source of potassium and can help regulate blood pressure."
+    ]
+  },
+  {
+    "ingredients": [
+      "beans"
+    ],
+    "name": "Beans Smoothie",
+    "instructions": "Blend 1/2 cup of cooked beans with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Beans are a great source of plant-based protein, ideal for muscle recovery.",
+      "Beans are high in fiber, which aids digestion and helps maintain healthy blood sugar levels."
+    ]
+  },
+  {
+    "ingredients": [
+      "blackberrie 1",
+      "blackberrie 2",
+      "blackberrie half rippen 1",
+      "blackberry"
+    ],
+    "name": "Blackberry Smoothie",
+    "instructions": "Blend 1/2 cup of blackberries with 1/2 cup of yogurt.",
+    "additional_ingredients": [
+      "yogurt"
+    ],
+    "fun_facts": [
+      "Blackberries are rich in vitamin C, which helps boost your immune system.",
+      "Blackberries are packed with antioxidants, which help protect your body from free radicals."
+    ]
+  },
+  {
+    "ingredients": [
+      "cabbage red"
+    ],
+    "name": "Red Cabbage Smoothie",
+    "instructions": "Blend 1/2 cup of shredded red cabbage with 1/2 cup of apple juice.",
+    "additional_ingredients": [
+      "apple juice"
+    ],
+    "fun_facts": [
+      "Red cabbage is high in vitamin C and antioxidants, supporting immune health.",
+      "Red cabbage is rich in anthocyanins, which may help protect your heart and reduce inflammation."
+    ]
+  },
+  {
+    "ingredients": [
+      "cabbage green"
+    ],
+    "name": "Green Cabbage Smoothie",
+    "instructions": "Blend 1/2 cup of shredded green cabbage with 1/2 cup of orange juice.",
+    "additional_ingredients": [
+      "orange juice"
+    ],
+    "fun_facts": [
+      "Green cabbage is a great source of vitamin K, which is important for bone health.",
+      "Cabbage is high in fiber, which supports digestion and helps regulate blood sugar levels."
+    ]
+  },
+  {
+    "ingredients": [
+      "kaju seed"
+    ],
+    "name": "Cashew Seed Smoothie",
+    "instructions": "Blend 1/4 cup of cashew seeds with 1/2 cup of coconut milk.",
+    "additional_ingredients": [
+      "coconut milk"
+    ],
+    "fun_facts": [
+      "Cashews are a good source of healthy fats, which support heart health.",
+      "Cashews are rich in magnesium, which is important for muscle and nerve function."
+    ]
+  },
+  {
+    "ingredients": [
+      "cherimoya"
+    ],
+    "name": "Cherimoya Smoothie",
+    "instructions": "Blend 1 cherimoya with 1/2 cup of coconut milk.",
+    "additional_ingredients": [
+      "coconut milk"
+    ],
+    "fun_facts": [
+      "Cherimoya is high in vitamin C and antioxidants, which help support your immune system.",
+      "Cherimoya is a good source of fiber, which supports healthy digestion."
+    ]
+  },
+  {
+    "ingredients": [
+      "cherry",
+      "cherry 3",
+      "cherry rainier 2",
+      "cherry rainier 3"
+    ],
+    "name": "Cherry Smoothie",
+    "instructions": "Blend 1/2 cup of cherries with 1/2 cup of yogurt.",
+    "additional_ingredients": [
+      "yogurt"
+    ],
+    "fun_facts": [
+      "Cherries are rich in antioxidants, which may help reduce inflammation and protect against diseases.",
+      "Cherries are a natural source of melatonin, which may help improve sleep quality."
+    ]
+  },
+  {
+    "ingredients": [
+      "cucumber"
+    ],
+    "name": "Cucumber Smoothie",
+    "instructions": "Blend 1/2 cucumber with 1/2 cup of coconut water.",
+    "additional_ingredients": [
+      "coconut water"
+    ],
+    "fun_facts": [
+      "Cucumbers are low in calories and high in water content, making them great for hydration.",
+      "Cucumbers contain antioxidants that can help reduce inflammation and improve skin health."
+    ]
+  },
+  {
+    "ingredients": [
+      "gooseberry"
+    ],
+    "name": "Gooseberry Smoothie",
+    "instructions": "Blend 1/2 cup of gooseberries with 1/2 cup of yogurt.",
+    "additional_ingredients": [
+      "yogurt"
+    ],
+    "fun_facts": [
+      "Gooseberries are rich in vitamin C, which helps support immune health.",
+      "Gooseberries have anti-inflammatory properties and can help reduce oxidative stress."
+    ]
+  },
+  {
+    "ingredients": [
+      "pistachio"
+    ],
+    "name": "Pistachio Smoothie",
+    "instructions": "Blend 1/4 cup of pistachios with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Pistachios are a great source of protein and healthy fats, which help keep you full longer.",
+      "Pistachios contain antioxidants that may help reduce inflammation and protect your heart."
+    ]
+  },
+  {
+    "ingredients": [
+      "quince"
+    ],
+    "name": "Quince Smoothie",
+    "instructions": "Blend 1 quince with 1/2 cup of apple juice.",
+    "additional_ingredients": [
+      "apple juice"
+    ],
+    "fun_facts": [
+      "Quince is high in vitamin C, which helps boost your immune system.",
+      "Quince is known for its anti-inflammatory properties and may help improve digestion."
+    ]
+  },
+  {
+    "ingredients": [
+      "tomato"
+    ],
+    "name": "Tomato Smoothie",
+    "instructions": "Blend 1 tomato with 1/2 cup of vegetable juice.",
+    "additional_ingredients": [
+      "vegetable juice"
+    ],
+    "fun_facts": [
+      "Tomatoes are rich in lycopene, an antioxidant that may help reduce the risk of cancer.",
+      "Tomatoes are also a good source of vitamin C and potassium, which are essential for heart health."
+    ]
+  },
+  {
+    "ingredients": [
+      "pear"
+    ],
+    "name": "Pear Smoothie",
+    "instructions": "Blend 1 pear with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Pears are high in fiber, which promotes healthy digestion and supports weight loss.",
+      "Pears are rich in antioxidants, which help protect the body from free radicals."
+    ]
+  },
+  {
+    "ingredients": [
+      "eggplant"
+    ],
+    "name": "Eggplant Smoothie",
+    "instructions": "Blend 1/2 cup of cooked eggplant with 1/2 cup of coconut milk.",
+    "additional_ingredients": [
+      "coconut milk"
+    ],
+    "fun_facts": [
+      "Eggplants are high in fiber, which helps promote digestion and support heart health.",
+      "Eggplants are rich in antioxidants, which may help protect the body against chronic diseases."
+    ]
+  },
+  {
+    "ingredients": [
+      "zucchini"
+    ],
+    "name": "Zucchini Smoothie",
+    "instructions": "Blend 1/2 zucchini with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Zucchini is low in calories and high in water content, making it perfect for hydration.",
+      "Zucchini contains antioxidants, which help protect the body from oxidative stress."
+    ]
+  },
+  {
+    "ingredients": [
+      "apple",
+      "banana"
+    ],
+    "name": "Apple Banana Smoothie",
+    "instructions": "Blend 1 apple and 1 banana with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Apples and bananas both provide essential vitamins and minerals to boost your immune system.",
+      "Bananas add creaminess to the smoothie, while apples contribute a refreshing crisp flavor."
+    ]
+  },
+  {
+    "ingredients": [
+      "apple",
+      "avocado"
+    ],
+    "name": "Apple Avocado Smoothie",
+    "instructions": "Blend 1 apple and 1/2 avocado with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Avocados are rich in healthy fats, while apples are high in fiber, making this smoothie perfect for digestion.",
+      "This smoothie is both creamy and refreshing, offering a good balance of healthy fats and natural sugars."
+    ]
+  },
+  {
+    "ingredients": [
+      "banana",
+      "blackberry"
+    ],
+    "name": "Banana Blackberry Smoothie",
+    "instructions": "Blend 1 banana and 1/2 cup of blackberries with 1/2 cup of coconut water.",
+    "additional_ingredients": [
+      "coconut water"
+    ],
+    "fun_facts": [
+      "Blackberries are rich in antioxidants, which help combat oxidative stress and inflammation.",
+      "Bananas provide potassium to support muscle function, and blackberries add a tangy flavor to this smoothie."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "beans"
+    ],
+    "name": "Beans Avocado Smoothie",
+    "instructions": "Blend 1/2 cup of cooked beans and 1/2 avocado with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Beans provide plant-based protein and fiber, while avocado adds healthy fats to make the smoothie creamy.",
+      "This smoothie is perfect for a protein-packed snack or breakfast."
+    ]
+  },
+  {
+    "ingredients": [
+      "cabbage red",
+      "cherry"
+    ],
+    "name": "Red Cabbage Cherry Smoothie",
+    "instructions": "Blend 1/2 cup of shredded red cabbage and 1/2 cup of cherries with 1/2 cup of vegetable juice.",
+    "additional_ingredients": [
+      "vegetable juice"
+    ],
+    "fun_facts": [
+      "Red cabbage contains antioxidants, while cherries provide natural sweetness and anti-inflammatory properties.",
+      "Together, they create a vibrant and health-boosting smoothie."
+    ]
+  },
+  {
+    "ingredients": [
+      "blackberry",
+      "gooseberry"
+    ],
+    "name": "Blackberry Gooseberry Smoothie",
+    "instructions": "Blend 1/2 cup of blackberries and 1/2 cup of gooseberries with 1/2 cup of yogurt.",
+    "additional_ingredients": [
+      "yogurt"
+    ],
+    "fun_facts": [
+      "Blackberries and gooseberries are both high in vitamin C, which supports the immune system.",
+      "These berries are packed with antioxidants that help protect the body from free radicals."
+    ]
+  },
+  {
+    "ingredients": [
+      "pistachio",
+      "quince"
+    ],
+    "name": "Pistachio Quince Smoothie",
+    "instructions": "Blend 1/4 cup of pistachios and 1 quince with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Pistachios add a nutty flavor and healthy fats to this smoothie, while quince adds a unique, tart sweetness.",
+      "This combination is both delicious and loaded with nutrients like fiber, vitamins, and minerals."
+    ]
+  },
+  {
+    "ingredients": [
+      "cucumber",
+      "tomato"
+    ],
+    "name": "Tomato Cucumber Smoothie",
+    "instructions": "Blend 1 tomato and 1/2 cucumber with 1/2 cup of vegetable juice.",
+    "additional_ingredients": [
+      "vegetable juice"
+    ],
+    "fun_facts": [
+      "Tomatoes are rich in lycopene, which is great for heart health, while cucumbers add a refreshing and hydrating touch.",
+      "This smoothie is perfect for staying hydrated and getting essential vitamins."
+    ]
+  },
+  {
+    "ingredients": [
+      "eggplant",
+      "zucchini"
+    ],
+    "name": "Eggplant Zucchini Smoothie",
+    "instructions": "Blend 1/2 cup of cooked eggplant and 1/2 zucchini with 1/2 cup of coconut milk.",
+    "additional_ingredients": [
+      "coconut milk"
+    ],
+    "fun_facts": [
+      "Eggplants are high in fiber, which helps digestion, while zucchini is low in calories and great for hydration.",
+      "This smoothie is a nutrient-packed blend of antioxidants and vitamins, supporting overall health."
+    ]
+  },
+  {
+    "ingredients": [
+      "cherry",
+      "pear"
+    ],
+    "name": "Pear Cherry Smoothie",
+    "instructions": "Blend 1 pear and 1/2 cup of cherries with 1/2 cup of yogurt.",
+    "additional_ingredients": [
+      "yogurt"
+    ],
+    "fun_facts": [
+      "Pears provide fiber for healthy digestion, while cherries add antioxidants and help reduce inflammation.",
+      "This smoothie is both sweet and tangy, with a creamy texture from the yogurt."
+    ]
+  },
+  {
+    "ingredients": [
+      "apple",
+      "banana",
+      "blackberry"
+    ],
+    "name": "Apple Banana Blackberry Smoothie",
+    "instructions": "Blend 1 apple, 1 banana, and 1/2 cup of blackberries with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Blackberries are rich in antioxidants, while apples and bananas provide fiber and natural sweetness.",
+      "This smoothie is a great combination of energy-boosting and immune-boosting ingredients."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "cabbage red",
+      "tomato"
+    ],
+    "name": "Avocado Cabbage Red Tomato Smoothie",
+    "instructions": "Blend 1/2 avocado, 1/2 cup of shredded red cabbage, and 1 tomato with 1/2 cup of vegetable juice.",
+    "additional_ingredients": [
+      "vegetable juice"
+    ],
+    "fun_facts": [
+      "Avocados are loaded with healthy fats, while red cabbage and tomatoes offer a great source of vitamins and antioxidants.",
+      "This smoothie is an immune-boosting powerhouse, providing anti-inflammatory properties and heart-healthy fats."
+    ]
+  },
+  {
+    "ingredients": [
+      "banana",
+      "beans",
+      "gooseberry"
+    ],
+    "name": "Banana Beans Gooseberry Smoothie",
+    "instructions": "Blend 1 banana, 1/2 cup of cooked beans, and 1/2 cup of gooseberries with 1/2 cup of coconut water.",
+    "additional_ingredients": [
+      "coconut water"
+    ],
+    "fun_facts": [
+      "Bananas provide potassium for muscle function, while beans add plant-based protein and gooseberries offer vitamin C.",
+      "This smoothie is perfect for energy and muscle recovery after a workout."
+    ]
+  },
+  {
+    "ingredients": [
+      "blackberry",
+      "cherrimuya",
+      "pistachio"
+    ],
+    "name": "Blackberry Cherrimuya Pistachio Smoothie",
+    "instructions": "Blend 1/2 cup of blackberries, 1/2 cup of cherrimuya, and 1/4 cup of pistachios with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Blackberries and cherrimuya are loaded with antioxidants, while pistachios provide healthy fats and protein.",
+      "This smoothie is perfect for a nutritious snack that keeps you full and energized."
+    ]
+  },
+  {
+    "ingredients": [
+      "cabbage green",
+      "gooseberry",
+      "pear"
+    ],
+    "name": "Green Cabbage Gooseberry Pear Smoothie",
+    "instructions": "Blend 1/2 cup of shredded green cabbage, 1/2 cup of gooseberries, and 1 pear with 1/2 cup of yogurt.",
+    "additional_ingredients": [
+      "yogurt"
+    ],
+    "fun_facts": [
+      "Green cabbage is rich in vitamin K, while gooseberries and pears provide essential fiber and vitamin C.",
+      "This smoothie is a great way to support your immune system and promote healthy digestion."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "pistachio",
+      "tomato"
+    ],
+    "name": "Avocado Pistachio Tomato Smoothie",
+    "instructions": "Blend 1/2 avocado, 1/4 cup of pistachios, and 1 tomato with 1/2 cup of vegetable juice.",
+    "additional_ingredients": [
+      "vegetable juice"
+    ],
+    "fun_facts": [
+      "Avocados add healthy fats, pistachios provide protein, and tomatoes are a great source of lycopene.",
+      "This smoothie is packed with nutrients that support heart health and reduce inflammation."
+    ]
+  },
+  {
+    "ingredients": [
+      "cherry",
+      "eggplant",
+      "zucchini"
+    ],
+    "name": "Cherry Eggplant Zucchini Smoothie",
+    "instructions": "Blend 1/2 cup of cherries, 1/2 cup of cooked eggplant, and 1/2 zucchini with 1/2 cup of coconut milk.",
+    "additional_ingredients": [
+      "coconut milk"
+    ],
+    "fun_facts": [
+      "Cherries provide antioxidants, while eggplant and zucchini offer vitamins and fiber.",
+      "This smoothie is a great option for those looking to detox and boost their digestive health."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "banana",
+      "pistachio"
+    ],
+    "name": "Avocado Banana Pistachio Smoothie",
+    "instructions": "Blend 1/2 avocado, 1 banana, and 1/4 cup of pistachios with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Avocados are full of healthy fats, while pistachios provide protein and bananas give you natural energy.",
+      "This smoothie is great for promoting healthy skin and maintaining energy levels throughout the day."
+    ]
+  },
+  {
+    "ingredients": [
+      "beans",
+      "cabbage green",
+      "tomato"
+    ],
+    "name": "Beans Tomato Green Cabbage Smoothie",
+    "instructions": "Blend 1/2 cup of cooked beans, 1 tomato, and 1/2 cup of shredded green cabbage with 1/2 cup of vegetable broth.",
+    "additional_ingredients": [
+      "vegetable broth"
+    ],
+    "fun_facts": [
+      "Beans are rich in protein, tomatoes are a great source of antioxidants, and cabbage is packed with fiber.",
+      "This smoothie is a nutritious and hearty option to keep you full and energized."
+    ]
+  },
+  {
+    "ingredients": [
+      "blackberry",
+      "quince",
+      "zucchini"
+    ],
+    "name": "Blackberry Quince Zucchini Smoothie",
+    "instructions": "Blend 1/2 cup of blackberries, 1 quince, and 1/2 zucchini with 1/2 cup of coconut water.",
+    "additional_ingredients": [
+      "coconut water"
+    ],
+    "fun_facts": [
+      "Blackberries and quince are both rich in antioxidants, while zucchini adds vitamins and minerals.",
+      "This smoothie is a flavorful and refreshing option, perfect for hot summer days."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "banana",
+      "blackberry",
+      "pear"
+    ],
+    "name": "Banana Avocado Pear Blackberry Smoothie",
+    "instructions": "Blend 1 banana, 1/2 avocado, 1 pear, and 1/2 cup of blackberries with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Bananas provide energy, while avocados offer healthy fats, pears provide fiber, and blackberries are full of antioxidants.",
+      "This smoothie is great for a balanced meal with healthy fats, fiber, and a burst of antioxidants."
+    ]
+  },
+  {
+    "ingredients": [
+      "apple",
+      "cabbage red",
+      "pistachio",
+      "tomato"
+    ],
+    "name": "Apple Tomato Pistachio Cabbage Red Smoothie",
+    "instructions": "Blend 1 apple, 1 tomato, 1/4 cup of pistachios, and 1/2 cup of shredded red cabbage with 1/2 cup of vegetable juice.",
+    "additional_ingredients": [
+      "vegetable juice"
+    ],
+    "fun_facts": [
+      "Tomatoes and cabbage are loaded with antioxidants, while apples and pistachios provide fiber and healthy fats.",
+      "This smoothie is packed with nutrients that promote heart health and support your immune system."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "banana",
+      "gooseberry",
+      "quince"
+    ],
+    "name": "Gooseberry Avocado Banana Quince Smoothie",
+    "instructions": "Blend 1/2 cup of gooseberries, 1/2 avocado, 1 banana, and 1 quince with 1/2 cup of coconut water.",
+    "additional_ingredients": [
+      "coconut water"
+    ],
+    "fun_facts": [
+      "Gooseberries are rich in vitamin C, while avocado provides healthy fats, bananas offer potassium, and quince adds a fragrant sweetness.",
+      "This smoothie is an immunity-boosting powerhouse, promoting skin health and energy."
+    ]
+  },
+  {
+    "ingredients": [
+      "cabbage green",
+      "eggplant",
+      "pistachio",
+      "tomato"
+    ],
+    "name": "Cabbage Green Tomato Pistachio Eggplant Smoothie",
+    "instructions": "Blend 1/2 cup of shredded green cabbage, 1 tomato, 1/4 cup of pistachios, and 1/2 cup of cooked eggplant with 1/2 cup of vegetable broth.",
+    "additional_ingredients": [
+      "vegetable broth"
+    ],
+    "fun_facts": [
+      "Cabbage and eggplant are high in fiber, while pistachios add protein and tomatoes are a great source of lycopene.",
+      "This smoothie is perfect for detoxing, supporting digestion, and boosting your immune system."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "blackberry",
+      "cherrimuya",
+      "zucchini"
+    ],
+    "name": "Blackberry Cherrimuya Avocado Zucchini Smoothie",
+    "instructions": "Blend 1/2 cup of blackberries, 1/2 cup of cherrimuya, 1/2 avocado, and 1/2 zucchini with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Blackberries and cherrimuya are rich in antioxidants, while avocado provides healthy fats and zucchini adds essential vitamins.",
+      "This smoothie is a nutrient-packed treat that supports healthy skin, digestion, and overall well-being."
+    ]
+  },
+  {
+    "ingredients": [
+      "banana",
+      "beans",
+      "blackberry",
+      "pistachio"
+    ],
+    "name": "Banana Blackberry Beans Pistachio Smoothie",
+    "instructions": "Blend 1 banana, 1/2 cup of blackberries, 1/2 cup of cooked beans, and 1/4 cup of pistachios with 1/2 cup of coconut water.",
+    "additional_ingredients": [
+      "coconut water"
+    ],
+    "fun_facts": [
+      "Bananas and blackberries provide fiber and antioxidants, while beans add protein and pistachios offer healthy fats.",
+      "This smoothie is great for energy, muscle recovery, and immune support."
+    ]
+  },
+  {
+    "ingredients": [
+      "cabbage red",
+      "gooseberry",
+      "quince",
+      "tomato"
+    ],
+    "name": "Tomato Quince Cabbage Red Gooseberry Smoothie",
+    "instructions": "Blend 1 tomato, 1 quince, 1/2 cup of shredded red cabbage, and 1/2 cup of gooseberries with 1/2 cup of vegetable juice.",
+    "additional_ingredients": [
+      "vegetable juice"
+    ],
+    "fun_facts": [
+      "Tomatoes and cabbage are high in antioxidants, quince provides a sweet flavor, and gooseberries offer a healthy dose of vitamin C.",
+      "This smoothie is a fantastic immune booster, rich in antioxidants and vitamins."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "cherry",
+      "pistachio",
+      "zucchini"
+    ],
+    "name": "Avocado Zucchini Pistachio Cherry Smoothie",
+    "instructions": "Blend 1/2 avocado, 1/2 zucchini, 1/4 cup of pistachios, and 1/2 cup of cherries with 1/2 cup of coconut water.",
+    "additional_ingredients": [
+      "coconut water"
+    ],
+    "fun_facts": [
+      "Avocado provides healthy fats, zucchini adds vitamins, pistachios provide protein, and cherries are loaded with antioxidants.",
+      "This smoothie is perfect for maintaining energy, skin health, and reducing inflammation."
+    ]
+  },
+  {
+    "ingredients": [
+      "blackberry",
+      "eggplant",
+      "pear",
+      "zucchini"
+    ],
+    "name": "Pear Eggplant Zucchini Blackberry Smoothie",
+    "instructions": "Blend 1 pear, 1/2 cup of cooked eggplant, 1/2 zucchini, and 1/2 cup of blackberries with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Pear provides fiber, eggplant offers antioxidants, zucchini is rich in vitamins, and blackberries are packed with nutrients.",
+      "This smoothie is a refreshing way to support digestion and maintain skin health."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "banana",
+      "pear",
+      "pistachio",
+      "tomato"
+    ],
+    "name": "Banana Avocado Tomato Pistachio Pear Smoothie",
+    "instructions": "Blend 1 banana, 1/2 avocado, 1 tomato, 1/4 cup of pistachios, and 1 pear with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Bananas provide energy, avocados offer healthy fats, tomatoes are packed with antioxidants, pistachios provide protein, and pears add fiber.",
+      "This smoothie is an excellent source of vitamins and minerals to support energy, digestion, and immune health."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "blackberry",
+      "cabbage green",
+      "gooseberry",
+      "quince"
+    ],
+    "name": "Blackberry Avocado Gooseberry Quince Cabbage Green Smoothie",
+    "instructions": "Blend 1/2 cup of blackberries, 1/2 avocado, 1/2 cup of gooseberries, 1 quince, and 1/2 cup of shredded green cabbage with 1/2 cup of coconut water.",
+    "additional_ingredients": [
+      "coconut water"
+    ],
+    "fun_facts": [
+      "Blackberries and gooseberries are rich in antioxidants, avocado provides healthy fats, quince adds a fragrant flavor, and cabbage is great for digestion.",
+      "This smoothie is packed with vitamins, fiber, and antioxidants to promote healthy skin and a strong immune system."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "blackberry",
+      "cabbage red",
+      "cherry",
+      "tomato"
+    ],
+    "name": "Tomato Blackberry Avocado Cabbage Red Cherry Smoothie",
+    "instructions": "Blend 1 tomato, 1/2 cup of blackberries, 1/2 avocado, 1/2 cup of shredded red cabbage, and 1/2 cup of cherries with 1/2 cup of vegetable broth.",
+    "additional_ingredients": [
+      "vegetable broth"
+    ],
+    "fun_facts": [
+      "Tomatoes and cherries are rich in antioxidants, avocado provides healthy fats, cabbage supports digestion, and blackberries are loaded with vitamins.",
+      "This smoothie is perfect for boosting your immune system and promoting healthy digestion."
+    ]
+  },
+  {
+    "ingredients": [
+      "banana",
+      "beans",
+      "gooseberry",
+      "pear",
+      "pistachio"
+    ],
+    "name": "Banana Gooseberry Beans Pistachio Pear Smoothie",
+    "instructions": "Blend 1 banana, 1/2 cup of gooseberries, 1/2 cup of cooked beans, 1/4 cup of pistachios, and 1 pear with 1/2 cup of coconut water.",
+    "additional_ingredients": [
+      "coconut water"
+    ],
+    "fun_facts": [
+      "Bananas are high in potassium, gooseberries offer vitamin C, beans add protein, pistachios provide healthy fats, and pears add fiber.",
+      "This smoothie is a great option for muscle recovery and boosting your immune system."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "eggplant",
+      "pistachio",
+      "tomato",
+      "zucchini"
+    ],
+    "name": "Avocado Tomato Zucchini Eggplant Pistachio Smoothie",
+    "instructions": "Blend 1/2 avocado, 1 tomato, 1/2 zucchini, 1/2 cup of cooked eggplant, and 1/4 cup of pistachios with 1/2 cup of vegetable juice.",
+    "additional_ingredients": [
+      "vegetable juice"
+    ],
+    "fun_facts": [
+      "Avocado provides healthy fats, tomatoes are packed with antioxidants, zucchini adds vitamins, eggplant is rich in fiber, and pistachios offer protein.",
+      "This smoothie supports digestion, heart health, and offers a balanced intake of nutrients."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "banana",
+      "blackberry",
+      "pear",
+      "quince",
+      "tomato"
+    ],
+    "name": "Banana Avocado Blackberry Tomato Pear Quince Smoothie",
+    "instructions": "Blend 1 banana, 1/2 avocado, 1/2 cup of blackberries, 1 tomato, 1 pear, and 1 quince with 1/2 cup of almond milk.",
+    "additional_ingredients": [
+      "almond milk"
+    ],
+    "fun_facts": [
+      "Bananas and avocados are energy-boosting, blackberries and tomatoes are rich in antioxidants, pears add fiber, and quince offers a fragrant sweetness.",
+      "This smoothie is an antioxidant-packed powerhouse, great for boosting your energy and immune system."
+    ]
+  },
+  {
+    "ingredients": [
+      "blackberry",
+      "cabbage green",
+      "gooseberry",
+      "pistachio",
+      "tomato",
+      "zucchini"
+    ],
+    "name": "Cabbage Green Blackberry Zucchini Pistachio Tomato Gooseberry Smoothie",
+    "instructions": "Blend 1/2 cup of shredded green cabbage, 1/2 cup of blackberries, 1/2 zucchini, 1/4 cup of pistachios, 1 tomato, and 1/2 cup of gooseberries with 1/2 cup of vegetable broth.",
+    "additional_ingredients": [
+      "vegetable broth"
+    ],
+    "fun_facts": [
+      "Cabbage, zucchini, and tomatoes are full of fiber and antioxidants, while blackberries and gooseberries offer a burst of vitamin C and pistachios provide healthy fats.",
+      "This smoothie is ideal for digestion, reducing inflammation, and supporting your immune system."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "banana",
+      "blackberry",
+      "cherrimuya",
+      "eggplant",
+      "pistachio"
+    ],
+    "name": "Banana Cherrimuya Avocado Blackberry Pistachio Eggplant Smoothie",
+    "instructions": "Blend 1 banana, 1/2 cup of cherrimuya, 1/2 avocado, 1/2 cup of blackberries, 1/4 cup of pistachios, and 1/2 cup of cooked eggplant with 1/2 cup of coconut water.",
+    "additional_ingredients": [
+      "coconut water"
+    ],
+    "fun_facts": [
+      "Bananas and avocados offer energy and healthy fats, cherrimuya and blackberries provide antioxidants, pistachios add protein, and eggplant promotes heart health.",
+      "This smoothie is an amazing blend of antioxidants and healthy fats to fuel your body and promote well-being."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "blackberry",
+      "cabbage red",
+      "eggplant",
+      "tomato",
+      "zucchini"
+    ],
+    "name": "Tomato Avocado Eggplant Zucchini Blackberry Cabbage Red Smoothie",
+    "instructions": "Blend 1 tomato, 1/2 avocado, 1/2 cup of cooked eggplant, 1/2 zucchini, 1/2 cup of blackberries, and 1/2 cup of shredded red cabbage with 1/2 cup of vegetable juice.",
+    "additional_ingredients": [
+      "vegetable juice"
+    ],
+    "fun_facts": [
+      "Tomatoes and eggplants are high in antioxidants, avocado provides healthy fats, zucchini and cabbage offer essential vitamins, and blackberries are loaded with nutrients.",
+      "This smoothie is great for promoting heart health, reducing inflammation, and supporting overall health."
+    ]
+  },
+  {
+    "ingredients": [
+      "avocado",
+      "banana",
+      "gooseberry",
+      "pistachio",
+      "quince",
+      "zucchini"
+    ],
+    "name": "Banana Quince Gooseberry Pistachio Avocado Zucchini Smoothie",
+    "instructions": "Blend 1 banana, 1 quince, 1/2 cup of gooseberries, 1/4 cup of pistachios, 1/2 avocado, and 1/2 zucchini with 1/2 cup of coconut water.",
+    "additional_ingredients": [
+      "coconut water"
+    ],
+    "fun_facts": [
+      "Bananas, quince, and gooseberries are high in vitamins, avocado provides healthy fats, pistachios offer protein, and zucchini is a great source of fiber.",
+      "This smoothie is a nutrient-dense treat, providing hydration, antioxidants, and a balanced source of energy."
+    ]
+  }
+]

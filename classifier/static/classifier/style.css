@@ -1,0 +1,250 @@
+/* SmartChef: warm, fresh colors for a food app */
+:root {
+    --bg: #FBF6EE;
+    --panel: #FFFFFF;
+    --ink: #2B2420;
+    --muted: #7A6E66;
+    --line: #EADFD2;
+    --accent: #E4572E;      /* tomato red */
+    --accent-soft: #FCE3D9;
+    --green: #4E9F3D;       /* leafy green */
+    --font: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+/* Make sure anything marked hidden stays hidden, even if it has a display rule */
+[hidden] { display: none !important; }
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font);
+    line-height: 1.55;
+}
+
+.top,
+.layout,
+.bottom {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-bottom: 8px;
+}
+
+.logo {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--accent);
+    letter-spacing: -0.02em;
+}
+
+.tagline {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 24px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.panel {
+    padding: 28px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+}
+
+.lead {
+    margin: 10px 0 22px;
+    color: var(--muted);
+}
+
+/* The big dashed box you click to choose a photo */
+.drop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 280px;
+    border: 2px dashed var(--line);
+    border-radius: 14px;
+    background: var(--bg);
+    cursor: pointer;
+    overflow: hidden;
+    transition: border-color 150ms ease;
+}
+
+.drop:hover { border-color: var(--accent); }
+
+.drop-text {
+    display: grid;
+    gap: 4px;
+    padding: 20px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.drop-text strong {
+    color: var(--accent);
+    font-size: 17px;
+}
+
+.drop-preview {
+    display: block;
+    width: 100%;
+    max-height: 360px;
+    object-fit: contain;
+}
+
+/* The real file input is hidden; the dashed box opens it */
+.upload input[type="file"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.button {
+    width: 100%;
+    margin-top: 16px;
+    padding: 14px;
+    border: 0;
+    border-radius: 12px;
+    background: var(--accent);
+    color: #FFFFFF;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 120ms ease, opacity 120ms ease;
+}
+
+.button:hover { transform: translateY(-2px); }
+.button:disabled { opacity: 0.7; cursor: wait; transform: none; }
+
+.error {
+    margin: 10px 0 0;
+    color: var(--accent);
+    font-weight: 600;
+}
+
+/* Result side */
+.eyebrow {
+    margin: 0 0 6px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.answer {
+    margin: 0 0 18px;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+    color: var(--green);
+}
+
+.guesses {
+    display: grid;
+    gap: 10px;
+    margin: 0 0 24px;
+    padding: 0;
+    list-style: none;
+}
+
+.guesses li {
+    display: grid;
+    grid-template-columns: 130px minmax(0, 1fr) 56px;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.bar {
+    height: 10px;
+    border-radius: 999px;
+    background: var(--bg);
+    overflow: hidden;
+}
+
+.bar span {
+    display: block;
+    height: 100%;
+    border-radius: 999px;
+    background: var(--green);
+}
+
+.guess-percent {
+    text-align: right;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+}
+
+.recipe {
+    padding: 20px;
+    border-radius: 14px;
+    background: var(--accent-soft);
+}
+
+.recipe h3 {
+    margin: 0 0 8px;
+    font-size: 22px;
+}
+
+.recipe p { margin: 0 0 10px; }
+
+.facts-title { margin-top: 14px !important; }
+
+.facts {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.facts li + li { margin-top: 6px; }
+
+.no-recipe,
+.steps {
+    color: var(--muted);
+}
+
+.steps {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.steps li + li { margin-top: 8px; }
+
+.bottom {
+    padding-bottom: 32px;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+/* Phones: stack the two panels */
+@media (max-width: 760px) {
+    .layout { grid-template-columns: minmax(0, 1fr); }
+    .top { flex-direction: column; gap: 4px; }
+    .guesses li { grid-template-columns: 100px minmax(0, 1fr) 52px; }
+}
